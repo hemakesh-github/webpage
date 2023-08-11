@@ -1,0 +1,73 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+
+}
+header {
+    color:aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#nav {
+    display: flex;
+    padding: 0;
+    border: 0;
+    background-color: #333333;
+}
+
+a:hover {
+    border: solid 2px black;
+    border-color: black;
+}
+
+#nav a {
+    padding: 5px;
+    color:azure;
+}
+
+
+#hemakesh {
+    float : right;
+    height: 400px;
+    width: 350px;
+}
+
+#icon {
+    height : 40px;
+    width: 40px;
+}
+
+footer {
+    background-color: #1B1212;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 40px;
+}
+
+
+.content {
+    flex: 1;
+    padding: 0;
+}
+
+.container {
+    flex: 1;
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
