@@ -68,10 +68,14 @@ header {
     height: 416px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 394px) {
     #hemakesh {
-        width: 100%; /* Make the image 100% width on smaller screens */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto; 
+    }
+
+    #homepage {
+        padding-bottom: 10px;
     }
 }
 
