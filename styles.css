@@ -48,8 +48,8 @@ nav {
 
 nav a:hover {
     padding: 5px;
-    border: solid 2px rgba(183, 166, 224, 0.857);
-    color: rgb(114, 7, 160);
+    text-decoration: underline;
+    color: rgb(194, 169, 205);
 }
 
 nav a {
