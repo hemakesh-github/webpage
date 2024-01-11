@@ -2,23 +2,25 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Poppins';
 }
 
 body {
-    background-color:rgb(32, 2, 29);
-    color: #7878d7;
-    min-height: 100%;
+    background-color:rgb(63, 51, 81);
+    color: #E9A6A6;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
     border: 0;
+    font-family: 'Poppins';
     padding: 0;
 }
 
 
 header {
     display: flex;
-    background-color: rgba(32, 4, 55, 0.736);
+    background-color: #1F1D36;
     color:aliceblue;
     min-width:100%;
     margin: 0;
@@ -30,7 +32,6 @@ header {
 }
 
 #intro {
-
     font-size: 2rem;
     justify-content: space-around;
     display: flex;
@@ -48,16 +49,18 @@ nav {
 
 nav a:hover {
     padding: 5px;
-    text-decoration: underline;
-    color: rgb(194, 169, 205);
+    border: solid 2px #3F3351;
+    color: #864879;
 }
 
 nav a {
     padding-top: 10px;
     text-decoration: none;
-    color:#9295f1;
+    color:#E9A6A6;
     font-size: 1.5rem;
-    font-weight: 1000;
+    font-weight: 100;
+    font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 #more {
@@ -105,13 +108,13 @@ nav a {
 }
 
 footer {
-    background-color: rgba(42, 23, 56, 0.2);
-    
+    background-color: rgba(42, 23, 56, 0.2); 
     padding-top: 40px;
     display: flex;
     flex-direction: column;
     color: white;
     padding-bottom: 40px;
+    margin-top: auto;
    
 }
 
@@ -124,6 +127,7 @@ footer {
 .container {
     flex: 1;
     border: 0;
+    font-family: 'Poppins', OpenSans;
 
 }
 
@@ -132,18 +136,20 @@ footer {
     border: 0;
     padding-top: 12%;
     width: 100%;
-    color:#023472;
+    color:rgb(134, 72, 121);
 }
 
 #skills_sec {
-
+    
     border: solid 1px black;
     width : 90%;
     margin: auto;
     padding: 0% 0% 0% 10%;
     align-items: center;
-    background-color: rgb(153, 246, 249);
-    color: rgb(6, 30, 124);
+    background-color: rgb(134, 72, 121);
+    box-shadow: black;
+    border-radius: 10px;
+    color:rgb(31, 29, 54);
 }
 
 
@@ -164,6 +170,11 @@ footer {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+}
+
+.sub {
+    font-size: 13px;
+    font-weight: 400;
 }
 
 
